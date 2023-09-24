@@ -75,7 +75,7 @@ class Dish{
 
 
 
-    public static String GetProducts(Scanner scanner){ //Метод для получения продуктов и цены
+    public static void GetProducts(Scanner scanner){ //Метод для получения продуктов и цены
 
         String stopWord = "Завершить";
 
@@ -105,7 +105,7 @@ class Dish{
 
         }
 
-        return products;
+
 
     }
 
