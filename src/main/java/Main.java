@@ -67,11 +67,11 @@ class Dish{
     static double sum = 0; // Переменная для итоговой суммы счета
     static String products=""; //Переменная для списка продуктов
 
-    Dish(String nameOfProducts, double sumOfProducts){
+    /* Dish(String nameOfProducts, double sumOfProducts){
         sum = sumOfProducts;
         products = nameOfProducts;
 
-    }
+    }*/
 
 
 
@@ -91,7 +91,7 @@ class Dish{
                     Dish.sum += price;
                     System.out.println("Товар успешно добавлен!\nНужно записать еще одно блюдо? Да/Завершить");
                     String answer = scanner.next();
-                    if (answer.equalsIgnoreCase(stopWord) == true) {
+                    if (answer.equalsIgnoreCase(stopWord)) {
                         break;
                     }
                 } else {
